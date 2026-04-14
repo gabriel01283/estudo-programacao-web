@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+
+.color-box:hover {
+  transform: scale(1.08);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+}
+
+
+.red {
+  background: linear-gradient(135deg, #ff4d4d, #c0392b);
+}
+
+.blue {
+  background: linear-gradient(135deg, #4da3ff, #1f5eff);
+}
+
+.green {
+  background: linear-gradient(135deg, #2ecc71, #1e9b50);
+}
+
+.purple {
+  background: linear-gradient(135deg, #b26bff, #6c2bd9);
+}
+
+.orange {
+  background: linear-gradient(135deg, #ffb84d, #e67e22);
+}
+
+.pink {
+  background: linear-gradient(135deg, #ff7eb3, #e84393);
+}
+
+.dark {
+  background: linear-gradient(135deg, #2d3436, #000000);
+}
+
+.cyan {
+  background: linear-gradient(135deg, #00e6e6, #0984e3);
+}
